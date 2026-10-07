@@ -1,0 +1,91 @@
+---
+title: "Kerim Problems"
+---
+
+## Plan for today: 
+
+1. Talk about Kerim
+2. Read through introduction of contra paper
+
+## Overall problem: 
+
+- He is not very self-sufficient 
+- I don't want to use time on it
+- I/we still need him to pass
+  - As I will be doing the work anyways I have used time Today and Yesterday on doing something passable
+
+## The overall idea of the project: 
+
+Look at polypharmacy in pregnancy
+
+- I had given him an analysis plan
+- As he did not really follow it I did a "bad paper" the last two days
+
+## Overall question: 
+
+![](../graphics/figures/2026_05_08_analysisplan.svg)
+
+## First figure: 
+
+![](../graphics/screendumps/2026_02_12_pregnancy_medication.png)
+
+## And the next part was seeing which pregnancy specific combs: 
+
+![](../graphics/figures/2026_05_08_analysisplan_facetted.svg)
+
+## medications: 
+
+![](../graphics/figures/2026_05_08_analysisplan_facetted_greyed.svg)
+
+## A majority of women get some medication: 
+
+![](../graphics/screendumps/2026_05_05_kerim_preg_overview.jpg)
+
+## And the common drugs are: 
+
+![](../graphics/screendumps/2026_05_08_kerim_common_drugs.jpg)
+
+
+## I cut off combination sizes for project: 
+
+![](../graphics/screendumps/2026_05_08_kerim_combination_sizes.jpg)
+
+
+## And in table form: 
+
+![](../graphics/screendumps/2026_05_08_kerim_table_1.jpg)
+
+
+## With the cutoff: 
+
+![](../graphics/screendumps/2026_05_08_kerim_table_2.jpg)
+
+## Next step diagnosis: 
+
+![](../graphics/figures/2026_05_08_analysisplan_facetted_ginv_reyed.svg)
+
+## Let me explain: 
+
+![](../graphics/screendumps/2026_05_08_kerim_diagnosis_all.jpg)
+
+
+## Let me explain: 
+
+![](../graphics/screendumps/2026_05_08_kerim_diagnosis_relevant.jpg)
+
+## Last is anlysis: 
+
+- Inverse probability weighted (multinomial) logistic regression 
+
+## Visualized: 
+
+![](../graphics/figures/2026_05_08_analysisplan_logreg.svg)
+
+
+## And the model effects: 
+
+![](../graphics/screendumps/2026-05-08_kerim_heatmap.jpg)
+
+## Next up: 
+
+1. Read introduction

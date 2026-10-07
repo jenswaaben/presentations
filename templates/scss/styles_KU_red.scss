@@ -1,0 +1,174 @@
+.reveal {
+  background-color: #5a1013;
+  color: white;
+}
+
+
+.reveal #title-slide {
+  text-align: left;
+  color: white;
+  text
+}
+
+
+.reveal #title-slide h1 {
+  font-size: 1.8em !important;
+  color: white !important;
+  text-align: left;
+
+}
+
+.reveal #title-slide p {
+  font-size: 0.9em !important;
+  color: rgb(203, 201, 235) !important;
+  text-align: left;
+}
+
+
+.reveal {
+  font-size: 24pt;
+}
+
+.reveal h1 {
+  color: white;
+  font-size: 1.2em !important;
+}
+
+.reveal h2 {
+  color: white;
+  font-size: 1.4em !important;
+}
+
+
+.reveal #title-slide h2 {
+  font-size: 1.3em !important;
+  color: white !important;
+  text-align: left;
+}
+
+
+
+.reveal #title-slide .quarto-title-author {
+  font-size: 1em !important;
+  color: white !important;
+}
+
+.reveal #title-slide .subtitle {
+  font-size: 1.2em !important;
+  color: white !important;
+}
+
+
+.small-table table {
+  font-size: 22px;
+}
+
+.small-text {
+  font-size: 22px !important;
+}
+
+.small-text-link {
+  font-size: 12px !important;
+  color: darkgrey
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+.reveal .slide-logo {
+  width: 7% !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.reveal .slide-logo img {
+  width: 7% !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.assignment-class {
+  color: #901A1E;
+  font-weight: bold;
+  font-size: 16pt;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.section-cluster {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+
+.custom-progress-dots {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 2.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  flex-direction: row;
+  gap: 24px;
+  z-index: 1000;
+}
+
+.progress-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  opacity: 1;
+  border-color: #f0f0f0;
+  transition: transform 0.3s, background 0.3s, opacity 0.3s;
+}
+
+
+
+.reveal .slides section.no-logo .slide-logo {
+  display: none !important;
+}
+
+
+/* All dots gray by default */
+
+.progress-dot {
+  background: #f3f5ff;
+}
+
+/* Dots in the current section take color */
+
+.progress-dot.in-section[data-section="lvl1"] {
+  background: #ffffff;
+}
+
+.progress-dot.in-section[data-section="lvl2"] {
+  background: #c2d4ff;
+}
+
+.progress-dot.in-section[data-section="lvl3"] {
+  background: #b4a7ff;
+}
+
+.progress-dot.in-section[data-section="lvl4"] {
+  background: #3967ff;
+}
+
+.progress-dot.in-section[data-section="lvl5"] {
+  background: #060fbf;
+}
+
+/* Active slide’s dot (slightly larger) */
+
+.progress-dot.active {
+  transform: scale(1.7);
+}

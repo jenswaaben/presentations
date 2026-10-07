@@ -1,0 +1,49 @@
+---
+title: "Adverse outcomes of medication in pregnancy"
+---
+
+## Agenda: {data-section="agenda"}
+
+1. The problem
+2. Experimental set-up
+3. The outcome
+
+## What is your background? {data-section="problem"}
+
+1. Experience in coding
+2. Experience in scientific writing
+
+
+## Your problem statement: {data-section="problem"}
+
+Hvordan kan dataanalyse og statistiske metoder anvendes til at undersøge og forudsige en mulig sammenhæng mellem brugen af paracetamol hos kvinder og risikoen for graviditetskomplikationer?
+
+## Problems as I see them: {data-section="problem"}
+
+1. You cannot do paracetamol - no prescription neccessary.
+2. You can do other things - but we need to narrow down our research question.
+
+
+## Our (Søren's) data: {data-section="experimental_setup"}
+
+![](../graphics/figures/2025_11_06_DK-women_registries.svg)
+
+## Our expertise: {data-section="experimental_setup"}
+
+1. I am more into "classical statistics"
+2. If you want to do neural networks you should get some other group members invovled
+
+\ 
+
+What do you want to do? 
+
+## As I see it: {data-section="experimental_setup"}
+
+You have a couple of options: 
+
+1. The trajectory approach. (all drugs)
+2. Setting up a narrow emulated target trial approach (manually curated set)
+
+## The outcome: {data-section="outcome"}
+
+A report in the format of a paper. 

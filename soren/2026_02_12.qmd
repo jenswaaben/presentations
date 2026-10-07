@@ -1,0 +1,128 @@
+---
+title: "Project update"
+---
+
+## Agenda 
+
+1. Extension and external stay
+2. Polypharmacy and contraceptives
+   1. Data-cleaning problems with dosing
+3. Labtests and the weather
+4. Kerim
+   1. How to get the most out of him
+
+## Practicals {data-section="lvl1"}
+
+1. I am applying for the full 6-month extension
+   1. Maybe done before, but might as well apply to the whole thing
+2. I have reached out to Carolina/Deborah about 8 week stay in Bristol  
+
+## Polypharmacy and contraceptives {data-section="lvl2"}
+
+As we discussed last time: 
+
+## Main findings: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_01_16_diag_drug_boxplot_effects.png)
+
+## We want to add polypharmacy: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion.svg)
+
+## We want to add polypharmacy: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion_2.svg)
+
+## For this to work we need: {data-section="lvl2"}
+
+1. Trustworthy estimates of defined daily dosages (ddds)
+   1. This has turned out to be slightly problematic
+
+## LSR overview: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_02_12_lsr_overview.png)
+
+## Alright for the most part: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_02_12_lsr_counts.png)
+
+## Problems: {data-section="lvl2"}
+
+1. Non-DDD stuff has no match
+2. Some DDD stuff make little sense. 
+
+## Non-DDD {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_02_12_indo.png)
+
+## Non-DDD: {data-section="lvl2"}
+
+- Some ATC has by default no DDDs (e.g. topical cremes, vaccines etc)
+- Based on size I assume 2-week / 4-week usage
+
+## DDDs that do not make sense: {data-section="lvl2"}
+
+- I check against the indo-texts
+- I flag the ones that make no sense and set them to 4 weeks
+
+## Labtests and the weather {data-section="lvl3"}
+
+1. I think a fun / interesting "low-hanging fruits" project w. Alvaro.
+
+## Originated from: {data-section="lvl3"}
+
+![](../graphics/figures/2025_12_03_alvaro_modelling_2.svg)
+
+## And I found this: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_open_meteo.png)
+
+## And the sunrise times: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_summer_winter.png)
+
+## In search for sunrise suntime i found more: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_weather_data.png)
+
+## Which I can use around the country: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_dots.png)
+
+
+## Which I can use around the country: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_squares.png)
+
+
+## Which I can use around the country: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_temp.png)
+
+## And the spatial location of the labtests: {data-section="lvl3"}
+
+![](../graphics/screendumps/2025_12_03_labtest_map.png)
+
+## In principle this could be redone for every data modality: {data-section="lvl3"}
+
+- Higher probability of Disease / medication depending on weather 
+- It's own internal contral unlike the modelling approach by torie / alvaro
+
+## This and lab-test trajectories {data-section="lvl3"}
+
+![](../graphics/figures/2026_01_16_lab_traj.svg)
+
+## Kerim {data-section="lvl5"}
+
+1. He does not seem super "self-running"
+   1. I might have to do more work than I planned
+   2. I think he won't be able to run any analysis himself
+2. I think Kathrine has forgot about him a little? 
+3. What to do different with the other student coming in.
+4. Analyis: 
+
+## Kerim analysis: {data-section="lvl5"}
+
+![](../graphics/screendumps/2026_02_12_pregnancy_medication.png)
+
+

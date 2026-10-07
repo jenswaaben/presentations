@@ -1,0 +1,230 @@
+---
+title: "Meeting 2026-03-17"
+bibliography: ../references/links.bib
+csl: ../refstyles/nature.csl
+---
+
+
+## Agenda: {data-section="lvl1"}
+
+1. I hope to have the first paper ready by end march 
+2. Currently I am re-running the things we discussed in the group meeting 
+3. Have to adopt my workflow to new server so not ready yet
+
+## Focus: {data-section="lvl1"}
+
+::::{.columns}
+
+:::{.column width="50%"}
+*The best is the mortal enemy of the good*  @wiki_volt
+
+\
+
+More focus on low-level input than usually 
+
+:::
+
+:::{.column width="50%"}
+![Voltaire @voltaire_pic](https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/voltaire_360x450.jpg?itok=vIlvSMCz&timestamp=1408145496){width="80%" fig-align="center"}
+
+:::
+
+::::
+
+
+## Storyline: {data-section="lvl2"}
+
+Control of Sex-hormones: 
+
+:::{.columns}
+
+:::{.column width="50%"}
+
+Progesterone: 
+
+![](../graphics/figures/2026_03_12_progesterone.svg)
+
+:::
+
+:::{.column width="50%"}
+
+Estrogen: 
+
+![](../graphics/figures/2026_03_12_estrogen.svg)
+
+:::
+
+:::
+
+
+## Storyline: {data-section="lvl2"}
+
+:::::{.columns}
+
+:::{.column width="33%"}
+
+Progesterone only
+
+![](../graphics/figures/2026_03_12_contra_iud.svg){width="120px" fig-align="center"}
+
+:::
+
+:::{.column width="33%"}
+
+Progesterone only (POP)
+
+![](../graphics/figures/2026_03_12_contra_pills.svg){width="200px" fig-align="center"}
+
+:::
+
+:::{.column width="33%"}
+
+Progesterone and estrogen
+
+![](../graphics/figures/2026_03_12_contra_pills.svg){width="200px" fig-align="center"}
+
+:::
+
+:::::
+
+## Novelty figure: {data-section="lvl2"}
+
+- You have told me before to make a figure illustrating why it is new
+  - Total years
+  - Measured outcomes (dot size)
+  - different ATC codes
+
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_1.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_2.svg)
+
+## Analysis: {data-section="lvl2"}
+
+::: {.small-table style="font-size: 0.8em;"}
+| personal_identifier | atc_code  | ddd | date       |
+|---------------------|-----------|-----|------------|
+| PID001              | G03AA07   |  ?  | 2026-03-01 |
+| PID001              | G03AB03   |  ?  | 2026-03-05 |
+| PID001              | G03AC09   |  ?  | 2026-03-10 |
+| PID001              | G02BA03   |  ?  | 2026-03-11 |
+| PID001              | G03AA09   |  ?  | 2026-03-11 |
+| PID002              | G03AA07   |  ?  | 2026-02-28 |
+| PID002              | G03AC03   |  ?  | 2026-03-02 |
+| PID002              | G02BA03   |  ?  | 2026-03-03 |
+| PID002              | G03AB04   |  ?  | 2026-03-08 |
+| PID002              | G03AC06   |  ?  | 2026-03-11 |
+| PID003              | G03AA12   |  ?  | 2026-01-15 |
+| PID003              | G03AC08   |  ?  | 2026-02-10 |
+| PID003              | G03AB02   |  ?  | 2026-03-04 |
+| PID003              | G02BA03   |  ?  | 2026-03-06 |
+| PID003              | G03AA11   |  ?  | 2026-03-11 |
+:::
+
+## We do a fast skip:  {data-section="lvl2"}
+
+::: {.small-table style="font-size: 0.8em;"}
+| personal_identifier | atc_code  | ddd | date       |
+|---------------------|-----------|-----|------------|
+| PID001              | G03AA07   | 28  | 2026-03-01 |
+| PID001              | G03AB03   | 28  | 2026-03-05 |
+| PID001              | G03AC09   | 84  | 2026-03-10 |
+| PID001              | G02BA03   | 365 | 2026-03-11 |
+| PID001              | G03AA09   | 28  | 2026-03-11 |
+| PID002              | G03AA07   | 28  | 2026-02-28 |
+| PID002              | G03AC03   | 84  | 2026-03-02 |
+| PID002              | G02BA03   | 365 | 2026-03-03 |
+| PID002              | G03AB04   | 28  | 2026-03-08 |
+| PID002              | G03AC06   | 28  | 2026-03-11 |
+| PID003              | G03AA12   | 28  | 2026-01-15 |
+| PID003              | G03AC08   | 84  | 2026-02-10 |
+| PID003              | G03AB02   | 28  | 2026-03-04 |
+| PID003              | G02BA03   | 365 | 2026-03-06 |
+| PID003              | G03AA11   | 28  | 2026-03-11 |
+:::
+
+
+## Analysis: recursive CTEs {data-section="lvl2"}
+
+\
+
+![](../graphics/figures/2026_03_12_recursive_CTE.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_2.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_3.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion_2.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_3.svg)
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_4.svg)
+
+
+## Analysis: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_start_workflow.png)
+
+## How to do this for ~500 drugs and diagnosis? {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_workflow_model.png)
+
+## Throught the interface: {data-section="lvl2"}
+
+![](../graphics/logos/tidyverse_logos/hex-stickers/SVG/tidymodels.svg){fig-align="center"}
+
+## Looks something like this: {data-section="lvl2"}
+
+```text
+# Set a prior
+prior_dist <- rstanarm::student_t(df = 1)
+
+
+# make the parsnip model
+bayes_mod <-   
+  linear_reg() %>% 
+  set_engine("stan", 
+             prior_intercept = prior_dist, 
+             prior = prior_dist) 
+
+# train the model
+bayes_fit <- 
+  bayes_mod %>% 
+  fit(width ~ initial_volume * food_regime, data = urchins)
+```
+
+## And the results: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_01_16_diag_drug_boxplot_effects.png)
+
+## Input I got: {data-section="lvl2"}
+
+1. Important with case-control matching
+2. Run more complex models with more atc
+3. Sif: try logistic regression - simple so can do 
+4. Bayesian hyperparameter estimation
+
+
+## Bibliography {data-section="lvl2"}

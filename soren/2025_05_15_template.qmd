@@ -1,0 +1,24 @@
+---
+title: "Lol"
+---
+
+## Section 1 {data-section="lvl1"}
+
+lol 
+
+## Section 2 {data-section="lvl2"}
+
+skrt
+
+## Section 3 {data-section="lvl3"}
+
+hvad siger du
+
+## Section 4 {data-section="lvl4"}
+
+## {background-image="../graphics/figures/2025_05_15_causality_1.svg" background-position="left" data-section="lvl4"}
+
+## Section 5 {data-section="lvl5"}
+
+yee-yee
+

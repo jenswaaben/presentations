@@ -1,0 +1,122 @@
+---
+title: "The Effects of Hormonal Contraception on Lab-test values"
+---
+
+## Agenda 
+
+- Overall Ph.D. plan 
+- Quick project recap
+- Input wanted
+
+## Overall Ph.d. plan: 
+
+- **Contraceptives vs Lab-tests**
+- Effects of medication usage in pregnancy (colab w. external stay)
+- Differential treatment men / women
+
+
+## Contraceptives vs. Lab-tests:
+
+- What we know
+- What we don't know
+- What I have been doing
+
+## Contraceptives vs. Lab-tests: 
+
+What we know: 
+
+![](../graphics/figures/2025_04_27_what_we_know.svg)
+
+## Contraceptives vs. Lab-tests:
+
+What **DON'T** we know (pt.1): 
+
+![](../graphics/figures/2025_04_27_what_we_dont_know_pt1.svg)
+
+## Contraceptives vs. Lab-tests: 
+
+What **DON'T** we know (pt.2): 
+
+![](../graphics/figures/2025_04_27_what_we_dont_know_pt2.svg)
+
+
+## Contraceptives vs. Lab-tests: 
+
+What **DON'T** we know (pt.3): 
+
+![](../graphics/figures/2025_04_27_what_we_dont_know_pt3.svg)
+
+## What I have done (registries): {.scrollable}
+
+- Estimated contraception usage using the danish registries. 
+
+![](../graphics/figures/2025_04_27_danish_registries.svg){width=100%}
+
+## What have i done (exclusion): 
+
+- Exclusion criteria includes: 
+  - Complete exclusion: 
+    - age > 49
+    - cancer
+    - thrombosis
+  - temporary: 
+    - Hospital stay > 24 hours
+    - Operations
+    - Pregnancies
+
+## Over 20 milllion years follow-up
+
+The data: 
+![](../graphics/figures/2025_04_27_overall_timing.svg){width=100%}
+
+
+## What have i done (periods):
+
+Used contraception history to estimated periods of using with lab-test overlap 
+\
+![](../graphics/figures/2025_04_27_periods.svg){width=100%}
+
+## A lot of labtests: 
+
+![](../graphics/figures/2025_04_27_labtest_split_active_component_wider.svg){width=100%}
+
+## What have I done (analysis): 
+
+End goal: make some sort of fingerprint:  
+![](../graphics/figures/2025_04_27_fingerprint.svg){width=100%}
+
+## An example: 
+
+``` {r results=FALSE}
+library("tidyverse")
+library("broom")
+n <- 150
+treatment <- c(rep("no_contra", n), rep("contra", n))
+results <- c(rnorm(n, 9, 1), rnorm(n, 11, 1))
+df <- tibble(treatment = treatment, value = results)
+lin_model <- glm(value ~ as_factor(treatment), data = df)
+res <- tidy(lin_model)
+```
+
+``` {r results=TRUE}
+ggplot(data = df, mapping = aes(x = treatment, y = value, fill = treatment)) +
+    geom_boxplot() +
+    theme_minimal() +
+    theme(panel.background = element_rect(color = "black")) +
+    labs(title = "A random test")
+
+print(res)
+```
+
+## The results are adapted volcano plots: 
+
+Just one example: 
+![](../graphics/figures/2025_04_27_levonorgestrel.svg)
+
+## My problems: 
+
+- Very heterogenous amount of tests: 
+  - Some contraceptives are very normal some are not
+  - very hard to visualize
+- I need to do some thinkering with the test setup
+- How to argue about causality? A problem I think most of us have

@@ -1,0 +1,81 @@
+<script>
+    Reveal.on('ready', event => {
+        const slides = Reveal.getSlides();
+
+        // --- Determine section for each slide ---
+        let currentSection = 'default';
+        slides.forEach((slide, i) => {
+            const isTopLevel = slide.classList.contains('level1');
+            const sectionAttr = slide.getAttribute('data-section');
+
+            if (isTopLevel && sectionAttr) currentSection = sectionAttr;
+            slide.dataset.section = slide.dataset.section || currentSection;
+        });
+
+        // --- Build main container ---
+        const container = document.createElement('div');
+        container.className = 'custom-progress-dots';
+
+        // Find relevant slides
+        const contentSlides = slides.filter((s, i) => {
+            const sec = s.dataset.section;
+            return sec !== 'title' && i !== 0;
+        });
+
+        // Find all unique sections in order of appearance
+        const sectionOrder = [];
+        contentSlides.forEach(s => {
+            const sec = s.dataset.section;
+            if (!sectionOrder.includes(sec)) sectionOrder.push(sec);
+        });
+
+        // Map: section → cluster element
+        const clusters = {};
+        sectionOrder.forEach(sec => {
+            const cluster = document.createElement('div');
+            cluster.className = 'section-cluster';
+            cluster.dataset.section = sec;
+            clusters[sec] = cluster;
+            container.appendChild(cluster);
+        });
+
+        // Add dots into their section clusters
+        contentSlides.forEach(slide => {
+            const sec = slide.dataset.section;
+            const dot = document.createElement('div');
+            dot.className = 'progress-dot in-section'; // always colored
+            dot.dataset.section = sec;
+            clusters[sec].appendChild(dot);
+        });
+
+        document.body.appendChild(container);
+        updateDots(event);
+    });
+
+    Reveal.on('slidechanged', event => updateDots(event));
+
+    function updateDots(event) {
+        const slides = Reveal.getSlides();
+        const current = Reveal.getCurrentSlide();
+        const container = document.querySelector('.custom-progress-dots');
+        const section = current.dataset.section;
+
+        // Hide on title slide
+        if (section === 'title' || slides.indexOf(current) === 0) {
+            container.style.display = 'none';
+            return;
+        }
+        container.style.display = 'flex';
+
+        // We need the slide → dot index mapping
+        const visibleSlides = slides.filter((s, i) =>
+            s.dataset.section !== 'title' && i !== 0
+        );
+        const currentIndex = visibleSlides.indexOf(current);
+
+        const dots = container.querySelectorAll('.progress-dot');
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === currentIndex);
+        });
+    }
+</script>

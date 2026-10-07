@@ -1,0 +1,34 @@
+titel Pan-diagnosis and poly-medication analysis of the effects of Hormonal contraceptives
+
+Titler på grafisk abstract skal være mere informative 
+- måske lave et mere illustrativt eksempel på modellering
+- størrelser den samme
+
+En lille blok-analyse: 
+- farv kapitler efter blokke
+
+Farvekode for contracepttiver. 
+
+Excl og Incl på søjler i tabellen. 
+
+Lav former for ATC vs ICD. 
+Lav streger for at opdele kapitlerne. eller baggrundsfarver - Sæt kapitler på akserne. 
+- Opsæt et mere informativt måde at scanne 
+- læg et lille space ind 
+
+Start på ny linje med ATC/ICD
+
+opdel I ATC og ICD for suplementary 
+Lav en figur der fylder en hel side - Christians paper
+Lav det pædagogisk første gang så må de brokke sig
+
+Hel side også 
+
+Submit-brev: 
+Det vi gør er at En diagnose med et effekt-estimat På dem alle sammen og prøver at lave en overordnet side-effekt profil. The relative impact of side-effect of different types. Man vil gerne have et helheldsbillede. 
+
+Ny farveskala for hver celle - lav en rangering af 
+
+blow up insert 
+
+

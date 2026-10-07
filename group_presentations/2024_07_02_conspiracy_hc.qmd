@@ -1,0 +1,190 @@
+---
+title: "Cross-Project Workforce (Conspiracy?)"
+---
+
+
+# Purpose
+\
+How do we collaborate in a fashion were people keep their own projects AND where people are not alone with everything? 
+\
+
+# Roundtable discussion 
+\
+1. What do people want out of these meeting? \
+2. Suggestions for getting there? 
+
+
+# An example: Hormonal contraceptives
+
+## Takehome
+
+Convince you that there are several uanswered questions regarding the use of hormonal contraceptives, namely: \
+
+::: {.incremental}
+
+1. How different types of hormonal contraceptives work \
+2. How we can personalize the choice of hormonal contraceptives \
+\
+3. Input on other directions based on what you guys have done
+
+:::
+
+## A bit of background: 
+
+1. How contraceptives work 
+2. Possible "off-target" effects
+
+## The normal cycle
+
+\
+\
+\ 
+
+![](figures/folicle_maturing.svg){width=100% fig-align="center"}
+
+## The normal cycle
+
+\ 
+
+This cycle is hormonally controlled \
+
+\ 
+
+Important for understanding contraceptives
+
+## The normal cycle
+
+\
+
+![](figures/relevant_tissue.svg){width=100% fig-align="center"}
+
+\
+
+## The normal cycle
+
+\
+
+![](figures/relevant_tissue_circulation.svg){width=100% fig-align="center"}
+
+
+## The normal cycle
+
+\
+
+![](figures/raw_timing.svg){width=80% fig-align="center"}
+
+
+## The normal cycle
+
+\
+
+![](figures/fsh_timing.svg){width=80% fig-align="center"}
+
+
+## The normal cycle
+
+\
+
+![](figures/fsh_lh_timing.svg){width=80% fig-align="center"}
+
+
+## The normal cycle
+
+\
+
+![](figures/fsh_lh_estrogen_timing.svg){width=80% fig-align="center"}
+
+
+## The normal cycle
+
+\
+
+![](figures/fsh_lh_estrogen_progesteron_timing.svg){width=80% fig-align="center"}
+
+## Contraceptives
+\
+Contains formulations of Progestogen (and Estrogen)\
+\
+Both steroid hormones
+
+## Steroid hormones
+
+![](figures/steroid_hormones.svg){width=80% fig-align="center"}
+
+## Progestogens main source of variation
+
+![](figures/different_progestogens.svg){width=80% fig-align="center"}
+
+## Different formulations convey different risk: 
+
+::::{.columns}
+:::{.column width="54%"}
+\
+Danish milestone paper show different risks of myocardial stroke
+:::
+:::{.column width="46%"}
+![](figures/lidegaard_risk.png){width=100% fig-align="right"}
+:::
+::::
+
+## 2023 paper did the same but with polypharmacy: 
+
+::::{.columns}
+:::{.column width="40%"}
+\
+NSAIDs and HC shows additive effect
+:::
+:::{.column width="60%"}
+![](figures/polypharmacy_risk.png){width=100% fig-align="right"}
+:::
+::::
+
+## Multiple receptors: 
+
+1. Progesterone receptor
+2. Estrogen receptor
+3. Androgen receptor
+4. Glucocorticoid receptor
+5. Mineralcorticoid receptor
+
+## Receptors have different pharmacodynamics:
+
+![](figures/pharmacodynamics.png){width=100% fig-align="center"}
+
+## So far:
+
+I have been working on the DBDS so far. I am repeating the HC usage from 2023 paper. After that: 
+
+1. Cross-link with LAB and do labtest relevance
+2. Graph driven epidemiology  
+3. Open for input
+
+# Input
+
+## Data: 
+
+1. LSR
+2. LAB / coplab / BTH
+3. LPR
+
+## Input / potential for meeting
+
+1. Solve concrete questions
+2. Investigate new collaborative projects
+
+## Questions: 
+
+- How to best handle registries? 
+- How to handle missingness in the registries? 
+- Model selection - concrete examples of how registry data is prepared for more advanced models?
+
+## Collaborative projects: 
+
+- Low grade inflammation has been shown
+- Diabetes? 
+- Autoimmune disease? 
+
+## Methodology? 
+
+- Does it make sense to do more practical exercises? 
+- Show what I have done 

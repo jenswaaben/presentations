@@ -1,0 +1,146 @@
+---
+title: "First meeting: Project definition"
+---
+
+## Agenda: 
+
+- Me, and what I want out of the meeting
+- Key project elements
+  - Data
+  - Question
+  - Method
+- Synthesis
+
+## Quick introduction: 
+
+:::{.columns}
+:::{.column width=45%}
+:::{.smaller-text}
+- Undergrad: Molecular biology 
+  - Electrophysiology
+- Masters: Bioinformatics
+  - Network biology
+- Now: Epidemiology
+- Personally: like the outside
+:::
+:::
+:::{.column width=55%}
+
+:::{layout-ncol=2}
+
+![](../graphics/screendumps/2025_06_05_patch.jpg)
+
+![](../graphics/screendumps/2025_06_05_personal.jpg)
+
+:::
+
+![](../graphics/screendumps/2025_06_05_networks.png)
+
+:::
+:::
+
+## My project: (Poly)pharmacy in women
+
+![](../graphics/figures/2025_06_05_DK_women_poly.svg){fig-align="center" width=80%}
+
+## More specifically: contraceptives and pregnancy 
+
+![](../graphics/figures/2025_06_05_paper_overview.svg){width=50%}
+
+## Focus of today: 
+
+\ 
+
+![](../graphics/figures/2025_06_05_pregnancy_project.svg){fig-align="center" width=10%}
+
+## How to go about it? 
+
+1. Talk data
+2. Talk question
+3. Talk methods
+
+## Our data: 
+
+Three levels: 
+
+1. Country wide
+2. Temporal and spatial hospital subset
+3. Genetics
+
+## Nationwide: 
+
+::::{.columns}
+:::{.column width=33%}
+:::{.smaller-text}
+Top-level data: 
+
+- Code-based, i.e. diagnosis, medication
+  
+Some biological data: 
+
+- Tests
+  
+:::
+:::
+:::{.column width=66%}
+![](../graphics/figures/2025_06_05_registry_timing_DK.svg){fig-align="right" width=80%}
+:::
+::::
+
+## Nationwide subset: 
+
+
+::::{.columns}
+:::{.column width=33%}
+:::{.smaller-text}
+Roughly 2.2 million people
+
+\
+
+ALL the data from hospitals, i.e. journals, precise dosages, etc
+
+:::
+:::
+:::{.column width=66% text-align=right}
+![](../graphics/figures/2025_06_05_BTH.svg){fig-align="center" width=66%}
+:::
+::::
+
+## Genetics: 
+
+- Genetic data from around 400k individuals. 
+  - Danish Blood Donors 
+  - Hospital Biobanks
+
+## Your data: 
+
+- Does it look like our data? 
+- What do you usually use? 
+
+## Research question: 
+
+1. Most of my focus have been on contraceptives. 
+2. Next step is pregnancy. 
+
+## A unique situation: 
+
+\
+
+![](../graphics/figures/2025_06_05_pregnancy_project.svg){fig-align="center" width=70%}
+
+## Your projects? 
+
+- You mentioned polypharmacy and pregnancy and maybe a lack of power in some of your project? 
+- Other possibilities? 
+
+## Methods: 
+
+- Our (Søren's) group is historically a machine learning group 
+  - A lot of neural networks 
+  - Linear models
+  - Some genetics
+- Your expertise: 
+  - Causal inference 
+  - Genetics
+
+# Discussion

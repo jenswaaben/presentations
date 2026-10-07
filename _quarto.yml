@@ -1,0 +1,40 @@
+project:
+  output-dir: slides
+
+author: "Jens Waaben"
+
+date: today
+
+mainfont: lato
+
+logo: graphics/logos/KU/KU_logo_seal.svg
+
+csl: refstyles/nature.csl
+
+format: 
+  revealjs: 
+    center-title-slide: true
+    title-slide-attributes: 
+      data-background-image: graphics/logos/KU/KU_logo_outline.svg
+      data-background-position: 90% 200%
+      data-background-size: 50%
+      data-background-opacity: "0.2"
+    template-partials:
+      - templates/html/title-slide.html 
+    css: templates/scss/styles_KU_red.scss
+    scrollable: true
+    slide-number: false
+    show-slide-number: all
+    font-size: 12
+    include-after-body: 
+      - templates/html/progress-dots.html
+      - templates/js/hide-logo-title.js
+    margin: 0.1
+    gutter: 0.01
+    progress: false
+    menu: false
+
+
+
+
+outline_logo: /home/jenswaaben/phd/presentations/graphics/logos/KU/KU_logo_outline.svg

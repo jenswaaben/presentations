@@ -1,0 +1,148 @@
+---
+title: "Meeting 2025-12-03"
+---
+
+##  Agenda {data-section="agenda"}
+
+1. Teaching
+2. Kerim and Pregnancy-project
+3. LAB updates
+4. Paper 
+
+## Teaching {data-section="teaching"}
+
+1. Teach on friday 
+2. Leave friday night for UK
+3. Will be back next monday
+
+## Kerim {data-section="kerim"}
+
+- He sent me the rules for the masters 
+- Looks very "classic"
+
+## Practical stuff: {data-section="kerim"}
+
+- I will make a one-pager analysisplan before our next meeting
+- Who is supposed to give him access? Should I take charge or "pass him on" to Kathrine?
+- He starts February 1. 
+
+## LAB: {data-section="lab"}
+
+- LAB at a glance (LAB for posterity + custom grouping) 
+- Alvaros usage
+- Modelling differences with heterogenous data 
+
+## LAB at a glance: {data-section="lab"}
+
+1. Where are the tests from 
+2. What type of lab takes what type of tests
+3. What are they testing for? (Custom grouping)
+
+## LAB - laboratory size and location {data-section="lab"}
+
+![](../graphics/screendumps/2025_12_03_labtest_map.png)
+
+## LAB at a glance: {data-section="lab"}
+
+1. Where are the tests from 
+2. What type of lab takes what type of tests
+3. What are they testing for? (Custom grouping)
+   
+
+## LAB - tests for different situations {data-section="lab"}
+
+![](../graphics/screendumps/2025_12_03_lab_upset.png)
+
+## LAB at a glance: {data-section="lab"}
+
+1. Where are the tests from 
+2. What type of lab takes what type of tests
+3. What are they testing for? (Custom grouping)
+   
+
+## LAB - laboratory size and location {data-section="lab"}
+
+![](../graphics/screendumps/2025_12_03_labtest_categories.png)
+
+## Alvaro usage: {data-section="lab"}
+
+- Changed to LAB that I have cleaned
+- He is still doing 
+- I am trying to suggest an additional approach: 
+
+## Right now: {data-section="lab"}
+
+![](../graphics/screendumps/2025_12_03_labtest_daily_trend.png)
+
+## Modelling using summer and winter differences {data-section="lab"} 
+
+![](../graphics/figures/2025_12_03_alvaro_modelling.svg)
+
+## Modelling using summer and winter differences {data-section="lab"} 
+
+![](../graphics/figures/2025_12_03_alvaro_modelling_2.svg)
+
+## Modelling using summer and winter differences {data-section="lab"} 
+
+![](../graphics/screendumps/2025_12_03_labtest_yearly_trend.png)
+
+## Alvaro only uses numerical tests: {data-section="lab"} 
+
+I have a different modelling paradigme: 
+
+1. Full numerical range - normal
+2. Strictly positive numerical with decimals - log-transform and normal 
+3. Strictly postive and zero heavy - poisson
+4. Strictly positive and in [0,1,2,3,4,5,6,...,20] - convert to binary - binomial
+5. 0-1: binomial 
+
+## Running models but takes time {data-section="lab"} 
+
+Not done yet. 
+
+## Paper {data-section="paper"}
+
+- No need to go over ALL analysis so far 
+- Help on final steps
+
+## Paper {data-section="paper"}
+
+![](../graphics/screendumps/2025_12_03_table.png)
+
+## Paper {data-section="paper"}
+
+![](../graphics/figures/2025_12_03_lab_plan.svg)
+
+## Paper {data-section="paper"}
+
+![](../graphics/figures/2025_12_03_lab_plan_2.svg)
+
+## Paper {data-section="paper"}
+
+![](../graphics/figures/2025_12_03_lab_plan_3.svg)
+
+## Paper {data-section="paper"}
+
+![](../graphics/screendumps/2025_11_06_diagnosis_modelling.png)
+
+## Paper {data-section="paper"}
+
+![](../graphics/screendumps/2025_11_06_drug_modelling.png)
+
+## Paper {data-section="paper"}
+
+- A medical paper would stop here (maybe make a small case for causality). 
+- What will we do? 
+- Suggestions: 
+
+## Suggestions {data-section="paper"} 
+
+- Case-control matching and see if it still applies
+  - Case-control nesting on G03AA07 (Pill) and G02BA03 (IUD)
+- Advanced setups for cross-validating and causality
+- More complex models? 
+
+\
+
+Overall question: Exploring effects of contraceptives
+

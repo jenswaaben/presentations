@@ -1,0 +1,47 @@
+---
+title: "Update"
+---
+
+## Agenda {data-section="lvl1"}
+
+Not much today: 
+
+1. Only 3.5 days of work since last time
+2. Leaving for Bristol tomorrow at 14. 
+3. I have been tweaking the pipeline for optimizing the modelling
+4. Talked to Frederik
+
+
+## Bristol plan: {data-section="lvl2"}
+
+1. As per your guidance I have kept the "promises" to a minimum 
+2. I hope to submit first paper somewhere within the first 2 weeks 
+3. Can't renovate from UK 
+
+## Bristol plan: {data-section="lvl2"}
+
+Paper: 
+Classification of HC switchers
+
+
+1. Not large scale as I don't think it will fit into overall scope of thesis
+2. Can use my knowledge to make the cohort a good one
+
+## Changes to modelling approaches {data-section="lvl3"}
+
+1. A splines based way of handling years and ages 
+2. Cardivascular comorbidity index for selecting correct controls 
+3. Bayesian (lab-test): 
+   1. Variational inference for faster (non-perfect) posterior estimation 
+   2. Trying on subset to see estimates and speed if it is worth it
+
+## Talked to Frederik {data-section="lvl4"}
+
+1. One of his students is working with contraceptives
+2. Maybe quid-pro-quo we will see
+
+## Next meeting {data-section="lvl5"}
+
+1. Next meeting 22 Oct 
+2. Will try to put one in between 
+3. Will text you after I get settled in UK 

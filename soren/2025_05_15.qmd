@@ -1,0 +1,107 @@
+---
+title: "Update: 2025/05/15"
+---
+
+## Since last meeting: 
+
+- Quick update on external stay
+- Teaching 
+- Project planning for optimal back-forth 
+- Labtest "cleaning" 
+
+## Teaching: 
+
+- Taught friday and monday 
+- Got the materials late
+- I liked it - if he needs help again I would be up for it  
+  - Let's see what the feedback says
+
+## Project planning for optimal back-forth: 
+
+As I see it I have 4 deliverables: 
+
+1) PhD-thesis
+2) Paper contraceptives
+3) Paper drugs in pregnancies
+4) Paper drugs after diagnosis: Men vs. Women
+
+
+## Medicating Women: Patterns and Effects in the Danish National Health Registries {background-image=illustrations/paper_overview.svg}
+
+
+
+## Project planning for optimal back-forth: 
+
+::::{.columns}
+:::{.column width=33%}
+
+Paper 1: 
+
+![](../graphics/screendumps/2025_05_15_labtest_front.png)
+:::
+:::{.column width=33%}
+
+Paper 2: 
+
+![](../graphics/screendumps/2025_05_15_preg_drug_one_pager.png)
+:::
+:::{.column width=33%}
+
+Paper 3: 
+
+![](../graphics/screendumps/2025_05_15_one_pager_dif_treatment.png)
+:::
+::::
+
+## Modularization (for easier input): 
+
+![](../graphics/screendumps/2025_05_15_modularization.png)
+
+## Sharing: 
+
+Is email the easiest? Is there a better way to do it where I can request input and just send you a link or something? 
+
+\ 
+
+My suggestion: 
+
+1) I set up onedrive sharing - it should give you access to each individual component and you can then edit it. 
+2) Latex sharing with git (would probably take too much of your time)
+
+## Cleaning labtests: 
+
+The problem: Outputs are not streamlined: 
+
+- Not all within their given categories actually fit
+
+## Cleaning labtests: 
+
+\
+
+![](../graphics/screendumps/2025_05_15_labtest_totals.png){width=100%}
+
+## Cleaning labtests: 
+
+How many of them are uniform? 
+
+## Cleaning labtests: 
+
+::::{.columns}
+:::{.column width=35%}
+\
+![](../graphics/figures/2025_05_15_conversion.svg)
+:::
+:::{.column width=65%}
+\
+![](../graphics/screendumps/2025_05_15_proportions.png){width=100%}
+:::
+::::
+
+
+## Cleaning labtests: 
+
+![](../graphics/screendumps/2025_05_15_labtest_conversions.png)
+
+## Next steps: 
+
+Gating of the plots i.e. find unique values to replace and what type of tests show the wrong things. 

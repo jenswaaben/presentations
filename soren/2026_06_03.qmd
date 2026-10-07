@@ -1,0 +1,30 @@
+---
+title: "Update 3/6"
+---
+
+## Overall points {data-section="lvl1"}
+
+1. UK-biobank email
+2. Kerim
+3. Analysis
+4. Explanation figure
+
+## Check biobank email {data-section="lvl2"}
+
+## Kerim {data-section="lvl3"} 
+
+- Have you heard anything?
+
+## Data analysis: 
+
+## {background-image="../graphics/figures/2026_04_22_model_collected.svg" background-position="left" data-section="lvl4" .hide-logo}
+
+## I changed to disease-level on your idea {data-section="lvl4"} 
+
+- Analysis went from 412 to 3000 models - and mediation went from 412 x 412 to 3000 x 3000
+- Takes time but is running
+
+## Show server: {data-section="lvl4"} 
+
+## Open figure {data-section="lvl5"}
+

@@ -1,0 +1,93 @@
+---
+title: "Update 8/3"
+---
+
+## Agenda: {data-section="lvl1"}
+
+- Practical stuff
+  - External stay
+  - Salary beyond current contract
+  - Possible "leave"
+- Plan for other papers:
+  - Paper 1: Holistic view of hormonal contraception landscape
+  - Paper 2: Assessing Hormonal contraception side effect profiles using labtests. 
+  - Paper 3: A causal approach to hormonal contraceptives
+- Paper 1  
+
+## Agenda: {data-section="lvl1"}
+
+- Plan for other papers:
+  - Paper 1: Holistic view of hormonal contraception landscape
+    - Basic statistic 
+    - Send you draft by end of week
+  - Paper 2: Assessing Hormonal contraception side effect profiles using labtests. 
+    - Bayesian
+    - Finished draft by end september
+  - Paper 3: A causal approach to hormonal contraceptives
+    - TMLE
+
+
+
+## Practical stuff: {data-section="lvl2"}
+
+- Upcoming external stay: 
+  - Bristol (Carolina / Deborah)
+  - Starts 6th of October  
+  - 6 or 8 weeks? 
+  - I need this for PhD school money 
+
+## Practical stuff 2: {data-section="lvl2"}
+
+- Pay after 9th of October
+- You don't owe me anything
+- We talked about it in march - you said it would depend on the overall funding situation
+
+## Leave of Absence: {data-section="lvl2"}
+
+- Depending on salary etc. 
+- The idea: 1 Month leave in September
+- I would use this to take some days for apartment renovation
+- I would however still work (although this is strictly speaking not allowed). 
+- Might not be in every day. 
+- This would allow me to bring the salary to UK. 
+- Would give a months extension. 
+
+## Paper 1: {data-section="lvl3"}
+
+- Last time: 
+  - Cohort done: both paper 1, 2, probably subgroup for 3
+  - I went from subgroup analysis to individual level codes
+  - Have run app. 1500 models
+
+## Modelling approach: 
+
+- Simple models. 
+- For adjusted incidence rates i bootstrapped model estimates and predicted on entire cohort. 
+
+## No time for inserting in slides:
+
+I will show in the PDFs that were exported friday afternoon. 
+
+- Cohort - flow diagram + heatmaps
+- Outcomes - boxplot, heatmap + upset, bars
+- Modelled outcomes: phe-was style plot - incidence rates of controls. 
+- Small example of a few select codes. 
+- To complete: top-diagnosis/drug across each type of HC as main finding for 
+- Comparison: dotplots, over-rep in chapters
+- To complete: Top differences shared between groups. 
+
+Morale of the story:
+- Different HC users are different bases 
+
+
+## Paper 2: 
+
+- General idea is to use a different datasource with less bias
+  - Idea being that two people getting a test done are more similar than just randomly
+- Once I have a first draft of Paper 1 sent to you I will get the bayesian workflow up and running. 
+
+## Paper 3: 
+
+- I will have my analysisplan ready before external stay 
+- I will be ready to ask questions about causal workflows and get the most of my time. 
+- Outcome should be an already investigated one. 

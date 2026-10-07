@@ -1,0 +1,141 @@
+---
+title: "2026-09-11"
+---
+## Agenda {data-section="lvl1"}
+
+- Dubai email
+- Non-work related updates
+- Non-project related questions
+- Bristol project
+- Title change of thesis and overall objective
+- Paper talk 
+
+## Non-work update {data-section="lvl1"}
+
+::: {layout-ncol=2}
+
+![](../graphics/screendumps/kitchen_pre.jpeg){height="900px"}
+
+![](../graphics/screendumps/bedroom_pre.jpeg){height="900px"}
+
+:::
+
+## Non-work update {data-section="lvl1"}
+
+::: {layout-ncol=2}
+
+![](../graphics/screendumps/kitchen_post.jpg){height="900px"}
+
+![](../graphics/screendumps/bedroom_post.jpeg){height="900px"}
+
+:::
+
+## Non-project related questions: {data-section="lvl2"}
+
+1) What is the plan with the group moving forward? 
+2) I am having problems with Kathrine 
+
+
+
+## Non-project related questions: {data-section="lvl2"}
+
+1) What is the plan with the group moving forward? 
+   1) This week I have been alone with Javier
+   2) Should I adjust accordingly? Are people working from home or have they disappeared. 
+2) I am having problems with Kathrine 
+
+
+## Non-project related questions: {data-section="lvl2"}
+
+1) What is the plan with the group moving forward? 
+2) I am having problems with Kathrine 
+   1) No straight answers - you have to "forventningsafstemme" a bit
+   2) General hostility
+
+
+## Bristol talk: {data-section="lvl3"}
+
+1) Had meeting with Carolina 
+2) Writing a one-pager after I set up lab-test 
+3) Overall theme: 
+   1) Using the 2011 change in ordination as a "natural experiment"
+   2) Personalized medicine dosing 
+
+## Official changes: {data-section="lvl3"}
+
+1) Absence approved (13. April + 14 days if needed)
+2) Title
+3) Paper plan
+
+
+## Titel: {data-section="lvl3"}
+
+Assessing medication side effects using EHRs: Hormonal contraception as a case study
+
+## Paper plan: {data-section="lvl3"}
+
+## {background-image="../graphics/figures/paper_plan.svg" background-position="left" data-section="lvl3"}
+
+
+## Paper talk {data-section="lvl4"}
+
+1) Nicoles paper
+2) Walktrough 
+3) Problems
+
+## Small talk on causality from Nicole's paper {data-section="lvl4"}
+
+1) What were the problems when stats meet clinical papers? 
+
+## Walkthrough: {data-section="lvl4"}
+
+1) Last time we discussed getting to the point faster
+2) In the paper I more or less skip the whole cohort making process (is in supplementary)
+3) Still to understand I think it is neccessary to say: 
+
+## Figures: {data-section="lvl4"}
+
+![](../graphics/screendumps/2026_09_11_heatmap.png)
+
+
+## Figures: {data-section="lvl4"}
+
+Based on these findings we see: 
+
+![](../graphics/screendumps/2026_09_11_significant%20outcomes.png.png)
+
+## Figures: {data-section="lvl4"}
+
+Based on these findings we find: 
+
+![](../graphics/screendumps/2026_09_11_upset_significance.png)
+
+## Figures: {data-section="lvl4"}
+
+Doing a deeper down into interesting categories: 
+
+![](../graphics/screendumps/2026_09_11_category_split.png)
+
+## And how much they are alike: {data-section="lvl4"}
+
+Open translation
+
+## However I think I have some problems: {data-section="lvl4"}
+
+1) We are approaching limits of what we can say with the model due to study design. 
+2) Incorrect inference: 
+
+![](../graphics/screendumps/2026_09_11_boxplots.png)
+
+## Possible solution: {data-section="lvl4"}
+
+1) Case-control matching
+2) case-different case matching
+3) In essence we are limiting ourselves to cohorts that can actually be compared. 
+4) I have had some exploding estimates due to lack of overlap. 
+   1) Thought propensity score weighting was enough but ap not
+
+## Other stuff: 
+
+1) Pharmacy mapping: {data-section="lvl4"}
+2) sygesikringregistret?

@@ -1,0 +1,67 @@
+---
+title: "Meeting 2025-06-19"
+---
+
+## Agenda: 
+
+A short one today: 
+
+- External stay: Meeting with Carolina
+- Paper-factory closer to up and running
+- Course on Bayesian statistics and it's applications on labtest paper
+
+## Meeting with Carolina 
+
+I presented: 
+
+- Our data (superficial)
+- My project (polypharmacy in women)
+- Our pregnancy study (very superficial plan)
+
+## Meeting with Carolina 
+
+She presented: 
+
+- Data: 
+  - Genetics
+  - EHR
+- Overall methodology: 
+  - Causal methods sounded exciting
+  - Genetics of course (MR)
+- Stuff in the pipeline: 
+  - Polypharmacy 
+  - Finngen molecular structures
+  - Adverse pregnancy outcomes
+
+## Meeting with Carolina: 
+
+Todo: 
+
+- Plan meeting w. Deborah. 
+- Feasibility analysis
+- One-pager writing.  
+
+## Paper factory: 
+
+I have made 3 paper plan semi-simoultanously: 
+
+- Contraception + labtests
+- Diagnosis + polypharmacy
+- Pregnancy + polypharmacy (external stay)
+
+## A quick talk on how you prefer to read it 
+
+I have made it modular-like. 
+
+- Do we make one figure plan at a time or do we make larger plans? 
+- Do we write a lot at first or basically nothing and see where it takes us? 
+- We work on one paper at a time? 
+
+## Labtests: 
+
+I have gotten some way with the cleaning.
+
+Have adapted my "one-size-fits-all" modelling approach.
+
+A bayesian approach based on the underlying type of data. 
+

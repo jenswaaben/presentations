@@ -1,0 +1,231 @@
+---
+title: "An Indication of the Rights of Woman"
+subtitle: "Assessing the effects of (Poly)Pharmacy in Women"
+---
+
+
+## A small pun: {data-section="lvl1"}
+
+::::{.columns}
+
+:::{.column width="50%"}
+![](https://cdn.britannica.com/97/230997-050-E959E093/Mary-Wollstonecraft-by-John-Keenan-after-John-Opie-1804.jpg)
+:::
+
+:::{.column width="50%"}
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.squarespace-cdn.com%2Fcontent%2Fv1%2F58eb9f4d46c3c45cf0e02ec0%2F1619774589855-K8I2PCJ59A260G7VCRLN%2F1200px-Vindication1b.jpeg&f=1&nofb=1&ipt=0eed8344eb1d41dc360c602f3aeb75aea6eabde7486ce11a06357fae59b2a13e){width="72%" fig-align="right"}
+
+:::{.small-text-link}
+[Book](https://www.gutenberg.org/ebooks/3420)
+:::
+
+:::
+
+::::
+
+# Agenda {data-section="lvl2"}
+
+## Today's programme: {data-section="lvl2"}
+
+1. My overall Ph.D. plan 
+2. A talk about Hormonal Contraceptives and Study Design
+3. Next steps (and openness to collaboration)
+
+# Assessing the effects of <span style="color: red">Polypharmacy</span> in <span style="color: yellow">Women</span> {data-section="lvl2"}
+
+## Why look into <u>polypharmacy</u> in women?  {data-section="lvl2"}
+
+::::{.columns}
+:::{.column}
+- Becoming more common
+:::
+
+:::{.column width="40%"}
+![](https://ugeskriftet.dk/_next/image?url=https%3A%2F%2Fcontent.ugeskriftet.dk%2Fsites%2Fdefault%2Ffiles%2Fscientific_article%2F2020-05%2F23485.jpeg&w=1920&q=75){width="100%"}
+
+:::{.small-text-link}
+https://ugeskriftet.dk/dmj/prevalence-polypharmacy-denmark
+:::
+
+:::
+::::
+
+## Why look into <u>polypharmacy in women</u>? {data-section="lvl2"}
+
+- Historically women have been underrepresented in clinical studies. 
+- Only mandatory to have women in studies in mid-90'ies
+
+\
+
+![](illustrations/screenshots/table_women_underrep.png){width="100%" fig-align="right"}
+
+:::{.small-text-link}
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9043984/
+:::
+
+## Why look into polypharmacy in women?  {data-section="lvl2"}
+
+:::{.incremental}
+1. Polypharmacy becoming more common
+2. Women are underrepresented in clinical studies.  
+:::
+
+
+## What are we working with? {data-section="lvl2"}
+
+. . .
+
+\
+
+![](../graphics/figures/2025_11_06_DK-women_registries.svg)
+
+## How do we model effects? {data-section="lvl2"}
+
+1. Overrepresentation of Diagnosis, medication and tests w. frequentist statistics. 
+2. Bayesian estimation when possible - i.e. when we have informative priors. 
+3. Hopefully I can fit in some neural networks. 
+
+## What do we model the effects of? {data-section="lvl2"}
+
+\
+
+![](../graphics/figures/2025_11_06_project_overview_detailed.svg){width="100%"}
+
+# Hormonal contraception: {data-section="lvl3"}
+
+## Sub-agenda: {data-section="lvl3"}
+
+1. How they work 
+2. What other people have done (and why they are wrong)
+3. What I have done (and why I am right)
+
+## How contraceptives work: {data-section="lvl3"}
+
+\
+
+![](../graphics/figures/2025_11_06_hormones_1.svg){fig-align="center"}
+
+
+## How contraceptives work: {data-section="lvl3"}
+
+\
+
+![](../graphics/figures/2025_11_06_hormones_2.svg)
+
+## Contraceptives hi-jack the natural cycle: {data-section="lvl3"}
+
+::::{.columns}
+:::{.column width="30%"}
+3 kinds (for now): 
+:::
+
+:::{.column width="70%"}
+
+\ 
+
+1. Pills: Progesterone and Estrogen
+   - Regular bleeding, medium risk 
+2. Pills: Progesterone 
+   - Irregular bleeding, low-risk
+3. IUD: Progesterone
+   - Irregular bleeding, low risk  
+:::
+::::
+
+## What is being done? {data-section="lvl3"}
+
+Short answer: Epidemiology
+
+:::::{.columns}
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_amani_2023.png){height="400pt"}
+
+:::{.small-text-link}
+https://www.bmj.com/content/382/bmj-2022-074450.short
+:::
+
+::::
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_mørch_2024.png){height="400pt"}
+
+:::{.small-text-link}
+https://jamanetwork.com/journals/jama/fullarticle/2825059
+:::
+
+::::
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_amani_2025.png){height="400pt"}
+
+:::{.small-text-link}
+https://www.bmj.com/content/388/bmj-2024-082801.abstract
+:::
+
+::::
+
+:::::
+
+## What is being done? {data-section="lvl3"}
+
+\
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thespruceeats.com%2Fthmb%2FjWADpPxTOAE8bjA5PkVUKOST8c4%3D%2F960x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fsalami-589633285f9b5874ee3c1e90.jpg&f=1&nofb=1&ipt=e6e99450062df88575ca87c52563faa188a1b5da6dbb1537af696e239845598b){fig-align="center"}
+
+## Pipeline: {data-section="lvl3"}
+
+1. Define usage periods
+2. Apply exclusion criteria 
+3. Find some outcome you want to measure 
+4. Poisson-regression 
+
+## We have: {data-section="lvl3"}
+
+1. Big computer
+2. We can run multiple models
+
+## I did: Manual labour {data-section="lvl3"}
+
+![](../graphics/screendumps/2025_11_06_contraceptives_manual.png){fig-align="center"}
+
+## I did: Usage periods and exclusions: {data-section="lvl3"}
+
+![](../graphics/screendumps/2025_11_06_table_periods.png){fig-align="center"}
+
+## I did: overrepresentation {data-section="lvl3"}
+
+1. Diagnosis
+2. Medication
+3. Tests
+
+Negative binomial regression, i.e. per time unit is a diagnosis / drug / test more likely to occur. 
+
+## I did: Overrep. diagnosis: {background-image="../graphics/screendumps/2025_11_06_diagnosis_modelling.png" background-position="left" data-section="lvl3"} 
+
+## I did: Overrep. medication: {background-image="../graphics/screendumps/2025_11_06_drug_modelling.png" background-position="left" data-section="lvl3"}
+
+## What i show: {background-image="../graphics/figures/2025_05_15_causality_1.svg" background-position="left" data-section="lvl3"}
+
+## What i show: {background-image="../graphics/figures/2025_11_06_causality_2.svg" background-position="left" data-section="lvl3"}
+
+# Next steps: {data-section="lvl4"}
+
+## Collaboration: {data-section="lvl4"}
+
+I am already talking to: 
+
+- Alvaro (labtests)
+- Maybe a masters student
+
+But if anyone has any other ideas I'm all ears. You have seen that Salami method apparently gets you into BMJ. 
+
+## Other papers: {data-section="lvl4"}
+
+I am slowly progressing on multiple fronts. Hoping for D-day not Barbarossa. 
+
+# Questions? {data-section="lvl5"}
+
+
+
+

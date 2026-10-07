@@ -1,0 +1,402 @@
+---
+title: "Women, polypharmacy (weed?) and weather"
+bibliography: ../references/links.bib
+csl: ../refstyles/nature.csl
+---
+
+# {data-section="lvl1"}
+
+![](https://cdn-images.dzcdn.net/images/cover/b5be27644d505bad7bdb516fe4165475/500x500.jpg){width="80%" fig-align="center"}
+
+## Agenda: {data-section="lvl1"}
+
+1. Contraceptives, polypharmacy and overrepresentation
+2. Weather and maps
+3. Lab-test plans (probably all I have time for)
+
+## Focus: {data-section="lvl1"}
+
+::::{.columns}
+
+:::{.column width="50%"}
+*The best is the mortal enemy of the good*  @wiki_volt
+
+\
+
+More focus on low-level input than usually 
+
+:::
+
+:::{.column width="50%"}
+![Voltaire @voltaire_pic](https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_small_2x/public/images/contributor/voltaire_360x450.jpg?itok=vIlvSMCz&timestamp=1408145496){width="80%" fig-align="center"}
+
+:::
+
+::::
+
+
+
+# Contraceptives: what's the deal? {data-section="lvl2"}
+
+## What the deal is: {data-section="lvl2"}
+
+**They are important!**
+
+\
+
+Why? 
+
+\
+
+They allow women to control if/when they get pregnant
+
+- Important for equality especially in developing countries
+
+## How is this achieved? {data-section="lvl2"}
+
+Control of Sex-hormones: 
+
+:::{.columns}
+
+:::{.column width="50%"}
+
+Progesterone: 
+
+![](../graphics/figures/2026_03_12_progesterone.svg)
+
+:::
+
+:::{.column width="50%"}
+
+Estrogen: 
+
+![](../graphics/figures/2026_03_12_estrogen.svg)
+
+:::
+
+:::
+
+## Hijacking the natural cycle: {data-section="lvl2"}
+
+![](../graphics/figures/2025_11_06_hormones_1.svg){fig-align="center"}
+
+## Hijacking the natural cycle: {data-section="lvl2"}
+
+![](../graphics/figures/2025_11_06_hormones_2.svg){fig-align="center"}
+
+## Different formulations {data-section="lvl2"}
+
+:::::{.columns}
+
+:::{.column width="33%"}
+
+Progesterone only
+
+![](../graphics/figures/2026_03_12_contra_iud.svg){width="120px" fig-align="center"}
+
+
+
+:::
+
+:::{.column width="33%"}
+
+Progesterone only (POP)
+
+![](../graphics/figures/2026_03_12_contra_pills.svg){width="200px" fig-align="center"}
+
+:::
+
+:::{.column width="33%"}
+
+Progesterone and estrogen
+
+![](../graphics/figures/2026_03_12_contra_pills.svg){width="200px" fig-align="center"}
+
+:::
+
+:::::
+
+## So what is the question again? {data-section="lvl2"}
+
+The pill is old. But we keep finding out new things about side effects etc. 
+
+I am investigating: 
+
+- Effects of different contraceptives on diagnosis / medication outcomes 
+- Labtest outcomes (not covering it today)
+
+## What is being done: 
+
+
+:::::{.columns}
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_amani_2023.png){height="400pt"}
+
+:::{.small-text-link}
+https://www.bmj.com/content/382/bmj-2022-074450.short
+:::
+
+::::
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_mørch_2024.png){height="400pt"}
+
+:::{.small-text-link}
+https://jamanetwork.com/journals/jama/fullarticle/2825059
+:::
+
+::::
+
+::::{.column width="33%"}
+![](../graphics/screendumps/2025_11_06_amani_2025.png){height="400pt"}
+
+:::{.small-text-link}
+https://www.bmj.com/content/388/bmj-2024-082801.abstract
+:::
+
+::::
+
+:::::
+
+## Stories are unnecessarily simple {data-section="lvl2"}
+
+\
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thespruceeats.com%2Fthmb%2FjWADpPxTOAE8bjA5PkVUKOST8c4%3D%2F960x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fsalami-589633285f9b5874ee3c1e90.jpg&f=1&nofb=1&ipt=e6e99450062df88575ca87c52563faa188a1b5da6dbb1537af696e239845598b){fig-align="center"}
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_1.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_2.svg)
+
+## Unfortunately we have to start somewhere else {data-section="lvl2"}
+
+::: {.small-table style="font-size: 0.8em;"}
+| personal_identifier | atc_code  | ddd | date       |
+|---------------------|-----------|-----|------------|
+| PID001              | G03AA07   |  ?  | 2026-03-01 |
+| PID001              | G03AB03   |  ?  | 2026-03-05 |
+| PID001              | G03AC09   |  ?  | 2026-03-10 |
+| PID001              | G02BA03   |  ?  | 2026-03-11 |
+| PID001              | G03AA09   |  ?  | 2026-03-11 |
+| PID002              | G03AA07   |  ?  | 2026-02-28 |
+| PID002              | G03AC03   |  ?  | 2026-03-02 |
+| PID002              | G02BA03   |  ?  | 2026-03-03 |
+| PID002              | G03AB04   |  ?  | 2026-03-08 |
+| PID002              | G03AC06   |  ?  | 2026-03-11 |
+| PID003              | G03AA12   |  ?  | 2026-01-15 |
+| PID003              | G03AC08   |  ?  | 2026-02-10 |
+| PID003              | G03AB02   |  ?  | 2026-03-04 |
+| PID003              | G02BA03   |  ?  | 2026-03-06 |
+| PID003              | G03AA11   |  ?  | 2026-03-11 |
+:::
+
+## We do a fast skip:  {data-section="lvl2"}
+
+::: {.small-table style="font-size: 0.8em;"}
+| personal_identifier | atc_code  | ddd | date       |
+|---------------------|-----------|-----|------------|
+| PID001              | G03AA07   | 28  | 2026-03-01 |
+| PID001              | G03AB03   | 28  | 2026-03-05 |
+| PID001              | G03AC09   | 84  | 2026-03-10 |
+| PID001              | G02BA03   | 365 | 2026-03-11 |
+| PID001              | G03AA09   | 28  | 2026-03-11 |
+| PID002              | G03AA07   | 28  | 2026-02-28 |
+| PID002              | G03AC03   | 84  | 2026-03-02 |
+| PID002              | G02BA03   | 365 | 2026-03-03 |
+| PID002              | G03AB04   | 28  | 2026-03-08 |
+| PID002              | G03AC06   | 28  | 2026-03-11 |
+| PID003              | G03AA12   | 28  | 2026-01-15 |
+| PID003              | G03AC08   | 84  | 2026-02-10 |
+| PID003              | G03AB02   | 28  | 2026-03-04 |
+| PID003              | G02BA03   | 365 | 2026-03-06 |
+| PID003              | G03AA11   | 28  | 2026-03-11 |
+:::
+
+## From prescriptions to periods:  {data-section="lvl2"}
+
+We need to adapt depending on: 
+
+1. How prescriptions are redeemed (more at a time?)
+2. A start buffer. 
+
+In a database fashion: faster and more memory efficient
+
+## The answer: recursive CTEs
+
+\
+
+![](../graphics/figures/2026_03_12_recursive_CTE.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_2.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_3.svg)
+
+## As an addition: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion.svg)
+
+## As an addition: {data-section="lvl2"}
+
+![](../graphics/figures/2026_01_16_drug_exclusion_2.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_3.svg)
+
+## I want to do everything at once! {data-section="lvl2"}
+
+![](../graphics/figures/2026_03_12_overrep_full_plan_4.svg)
+
+## How to do this for ~500 drugs and diagnosis? {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_workflow_trash.png)
+
+## How to do this for ~500 drugs and diagnosis? {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_workflow_trash.png)
+
+![](../graphics/screendumps/2026_03_12_zoolander.png)
+
+## How to do this for ~500 drugs and diagnosis? {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_start_workflow.png)
+
+## How to do this for ~500 drugs and diagnosis? {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_03_12_workflow_model.png)
+
+## Throught the interface: {data-section="lvl2"}
+
+![](../graphics/logos/tidyverse_logos/hex-stickers/SVG/tidymodels.svg){fig-align="center"}
+
+## Looks something like this: {data-section="lvl2"}
+
+```text
+# Set a prior
+prior_dist <- rstanarm::student_t(df = 1)
+
+
+# make the parsnip model
+bayes_mod <-   
+  linear_reg() %>% 
+  set_engine("stan", 
+             prior_intercept = prior_dist, 
+             prior = prior_dist) 
+
+# train the model
+bayes_fit <- 
+  bayes_mod %>% 
+  fit(width ~ initial_volume * food_regime, data = urchins)
+```
+
+## And the results: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_01_16_diag_drug_boxplot_effects.png)
+
+## Input please! {data-section="lvl2"}
+
+1. What do you think would be a good next analysis?
+   1. I have: Case control matching 
+   2. Custom exclusions
+   3. 15 first years prediction? 
+
+# Maps and the weather {data-section="lvl3"}
+
+## Maps and the weather {data-section="lvl3"}
+
+I did a little teaser at the project update - but this time I might have a little more time! 
+
+The idea is: 
+
+1. Include historic weather data in models 
+2. Same for spatial diagnosis / medication / labtest analysis
+
+## Origin: Alvaro's project {data-section="lvl3"}
+
+![](../graphics/figures/2025_12_03_alvaro_modelling.svg)
+
+## Origin: Alvaro's project {data-section="lvl3"}
+
+![](../graphics/figures/2025_12_03_alvaro_modelling_2.svg)
+
+## For this You need: {data-section="lvl3"}
+
+When the sun rises. Duh. 
+
+![](../graphics/screendumps/2026_02_12_open_meteo.png){width="100%"}
+
+## So I took the sun-times of Odense: 
+
+![](../graphics/screendumps/2026_02_12_summer_winter.png){width="100%"}
+
+## But!
+
+Multiple other data-modalities were available. 
+
+And not everywhere is Odense. 
+
+## Steps: 
+
+1. Find municipality coordinates
+2. Find weather in municipalities
+3. Find coordinates of Danish health institutions
+   
+4. Profit? 
+
+## The API takes coordinates: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_dots.png)
+
+## For this you need: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_squares.png)
+
+## For this you need: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_02_12_denmark_temp.png)
+
+## I actually did this for municipalities: {data-section="lvl3"}
+
+![](../graphics/screendumps/2026_03_12_weather_average.png)
+
+## I think the extendability of the data is self-explanatory {data-section="lvl3"}
+
+![](../graphics/screendumps/2025_12_03_labtest_map.png)
+
+# Labtest plans {data-section="lvl4"}
+
+## Labtest plans {data-section="lvl4"}
+
+1. Extend diagnosis / medication to labtests
+2. Labtest / diagnosis trajectories
+
+## Labtest plans 1: {data-section="lvl4"}
+
+![](../graphics/figures/2026_03_12_contra_labtest_plan.svg)
+
+## Labtest plans 2: {data-section="lvl4"}
+
+![](../graphics/figures/2026_01_16_lab_traj.svg)
+
+# Finished! {data-section="lvl5"}
+
+## Acknowledgements {data-section="lvl5"}
+
+I couldn't find a group picture! 
+
+Maybe we should take one at some point. 
+
+## Bibliography {data-section="lvl5"}

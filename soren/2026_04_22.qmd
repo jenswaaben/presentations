@@ -1,0 +1,150 @@
+---
+title: "Project update"
+include-in-header:
+  - text: |
+      <style>
+        body:has(.present.hide-logo) {
+          --logo-display: none;
+        }
+        .slide-logo {
+          display: var(--logo-display, block) !important;
+        }
+      </style>
+---
+
+## Agenda: {data-section="lvl1"}
+
+1. today we go through the figures: 
+   1. Background 
+   2. Cohort and background data: 
+   3. Modelling 
+   4. To-do
+2. Booked writing meeting on thursday
+
+# Pan-diagnosis/medication screening of the effects of hormonal contraceptives. {data-section="lvl2"}
+
+## {background-image="../graphics/figures/2026_04_22_model_collected.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_1.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## The data: {data-section="lvl2"}
+
+What are we working with after cleaning? 
+
+## LPR: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_lpr.jpg)
+
+## LSR: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_lsr.jpg)
+
+## MFR: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_mfr.jpg)
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_2.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## We have the following contraceptives: {data-section="lvl2"}
+
+![](../graphics/screendumps/2025_11_06_contraceptives_manual.png)
+
+## And the following periods: {data-section="lvl2"}
+
+![](../graphics/screendumps/2025_12_03_table.png)
+
+## They are distributed like this in time and age: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_contra_usage.jpg)
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_3.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## Placeholder for finished flow diagram: 
+
+Everybody want one. 
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_4.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## What can we model: {data-section="lvl2"}
+
+- Lvl 3 ATC e.g. A10B (447 groups) 
+- Subgroup ICD (223 groups)
+- Keep it at this for now due to combinatorics
+
+## We find overlaps with LSR and LPR: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_counts_pre_modelling.jpg)
+
+## Some of these are too few to model: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_outcomes.jpg)
+
+## Two models: {data-section="lvl2"}
+
+1. One simple with no attempt to encode temporal and age
+2. One "full" model 
+
+## Model runtimes: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_runtimes.jpg)
+
+## Important to try {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_ageeffect.jpg)
+
+## Important to try {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_yeareffect.jpg)
+
+## Important to try {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_estimate_differences_points.jpg)
+
+## What you have already seen: {data-section="lvl2"}
+
+![](../graphics/screendumps/2025_11_06_diagnosis_modelling.png)
+
+## What you have already seen: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_01_16_diag_drug_boxplot_effects.png)
+
+## What you haven't seen: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_effects_dots.jpg)
+
+## What you haven't seen: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_faceted_result_counts.jpg)
+
+## Problems: {data-section="lvl2"}
+
+1. The results are hard to interpret
+2. Enter clustering. 
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_5.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## Only contraceptives where most combinations are present: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_table_heatmap.jpg)
+
+## Only contraceptives where most combinations are present: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_table_heatmap.jpg)
+
+## Only contraceptives where most combinations are present: {data-section="lvl2"}
+
+![](../graphics/screendumps/2026_04_22_model_effect_heatmap.jpg)
+
+## {background-image="../graphics/figures/2026_04_22_model_collected_6.svg" background-position="left" data-section="lvl2" .hide-logo}
+
+## Problems due to combinatorics: 
+
+1. Running all mediation models: 
+   1. 75625 models
+   2. Roughly 20 minutes per model, 100 GB RAM
+   3. 16 TB RAM on system
+   4. Roughly take up the entire cluster for a week
+
+## Next week: {data-section="lvl3"} 
+
+- We walk through the writing

@@ -1,0 +1,149 @@
+---
+title: "Meeting 2026-01-16"
+---
+
+##  Agenda {data-section="agenda"}
+
+Last meeting: 18th of December
+
+Vacation: 19th to 5th of January. 
+
+Focus since then:
+
+- Make polypharmacy realistic (timescales)
+- Model LAB 
+- Alvaro LAB 
+- Christian LAB 
+
+## Quick rundown of contraceptives: 
+ 
+Main Question: 
+
+- Can we estimate the effects of contraceptives with low bias? 
+
+Bonus Question: 
+
+- Polypharmacy and it's effects
+
+
+## The cohort: 
+
+![](../graphics/figures/2025_11_06_DK-women_registries.svg)
+
+## Overall_ 
+
+![](../graphics/screendumps/2026_01_16_cohort_basic.png)
+
+
+## How are the exclusions coded?
+
+![](../graphics/figures/2026_01_16_exclusions.svg)
+
+## How are the exclusions coded?
+
+![](../graphics/figures/2026_01_16_exclusions_2.svg)
+
+
+## How are the exclusions coded?
+
+![](../graphics/figures/2026_01_16_exclusions_3.svg)
+
+
+
+## And why dioes that matter? 
+
+- Before it was slow 
+  - approx. 6 hours
+  - Non-scaleable
+- Now it is fast
+  - 2 minutes
+  - Scaleable
+
+## Which yields some periods: 
+
+![](../graphics/screendumps/2026_01_16_contra_timing.png)
+
+## Which gives us: 
+
+![](../graphics/screendumps/2025_12_03_table.png)
+
+## And the results: 
+
+![](../graphics/screendumps/2025_11_06_diagnosis_modelling.png)
+
+## And the results: 
+
+![](../graphics/screendumps/2025_11_06_drug_modelling.png)
+
+## And the overview: 
+
+![](../graphics/screendumps/2026_01_16_diag_drug_boxplot_effects.png)
+
+## Reuse for polypharmacy? 
+
+- Cannot do like Alex because LSR does not have start-end times of medication
+- Maybe I can simply re-use my exclusion scripts? 
+
+## Polypharmacy overlap: 
+
+![](../graphics/figures/2026_01_16_drug_exclusion.svg)
+
+## Polypharmacy overlap: 
+
+![](../graphics/figures/2026_01_16_drug_exclusion_2.svg)
+
+## Quick rundown of LAB: 
+
+![](../graphics/screendumps/2025_12_03_lab_upset.png)
+
+## Quick rundown of LAB: 
+
+![](../graphics/screendumps/2026_01_16_category_mismatch.png)
+
+## Quick rundown of LAB: 
+
+I have a different modelling paradigme: 
+
+1. Full numerical range - normal
+2. Strictly positive numerical with decimals - log-transform and normal 
+3. Strictly postive and zero heavy - poisson
+4. Strictly positive and in [0,1,2,3,4,5,6,...,20] - convert to binary - binomial
+5. 0-1: binomial 
+
+## After my filtering: 
+
+Before: 1.99 billion tests
+After: 1.87 billion tests
+
+\
+
+The plots take time to make due to the size and I did not have time
+
+## Data is ready for multiple projects: 
+
+- Currently running the contraceptives models
+- I am ready to add another step to Alvaros paper
+- Ready for lab trajectories 
+  - Disease based replication of Agnetes paper on biomarkers
+  - Gender based 
+
+## Alvaro's paper: 
+
+![](../graphics/figures/2025_12_03_alvaro_modelling_2.svg)
+
+## Alvaros paper: 
+
+- I have put a file with sun-up down times with Alvaro
+
+## Possible lab trajectories: 
+
+![](../graphics/figures/2026_01_16_lab_traj.svg)
+
+## Some practical: 
+
+My plan is to: 
+
+- Plan my external stay in April / Maybe 6-8 weeks in Bristol. 
+- Plan for extension of 3 months of the phd
+  - I know you cannot guarantee salary but with the reform I think being out early is best
+
